@@ -6,4 +6,4 @@
     + Khi thay đổi kích cỡ Form, các nút và ô văn bản vẫn nằm vị trí neo vào cạnh dưới của Form và giữa Form theo chiều ngang
     
 Hướng dẫn:
-+ Nghiên cứu các Property (Thuộc tính) sau: Anchor, Dock và Location
++ Nghiên cứu các Property (Thuộc tính) sau: Anchor, Dock, Location, Width, Height và Size.
