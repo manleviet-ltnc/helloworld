@@ -8,5 +8,5 @@
     
 ## Hướng dẫn:
 Nghiên cứu các Property (Thuộc tính) sau:
-    1. Các thuộc tính của Label và Button: Anchor, Dock, Location, Width và Height trong Size
-    2. Các thuộc tính của Form: FormBorderStyle, Size, MaximumSize và MinimumSize
+ 1. Các thuộc tính của Label và Button: Anchor, Dock, Location, Width và Height trong Size
+ 2. Các thuộc tính của Form: FormBorderStyle, Size, MaximumSize và MinimumSize
