@@ -45,8 +45,7 @@
             // 
             // btnShow
             // 
-            this.btnShow.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnShow.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnShow.Location = new System.Drawing.Point(150, 274);
             this.btnShow.Name = "btnShow";
             this.btnShow.Size = new System.Drawing.Size(116, 23);
