@@ -34,18 +34,20 @@
             // 
             // lblHelloWorld
             // 
-            this.lblHelloWorld.AutoSize = true;
+            this.lblHelloWorld.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblHelloWorld.Font = new System.Drawing.Font("Segoe Script", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHelloWorld.ForeColor = System.Drawing.Color.Red;
-            this.lblHelloWorld.Location = new System.Drawing.Point(87, 88);
+            this.lblHelloWorld.Location = new System.Drawing.Point(12, 112);
             this.lblHelloWorld.Name = "lblHelloWorld";
-            this.lblHelloWorld.Size = new System.Drawing.Size(63, 80);
+            this.lblHelloWorld.Size = new System.Drawing.Size(407, 80);
             this.lblHelloWorld.TabIndex = 0;
             this.lblHelloWorld.Text = "a";
             // 
             // btnShow
             // 
-            this.btnShow.Location = new System.Drawing.Point(154, 213);
+            this.btnShow.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnShow.Location = new System.Drawing.Point(150, 274);
             this.btnShow.Name = "btnShow";
             this.btnShow.Size = new System.Drawing.Size(116, 23);
             this.btnShow.TabIndex = 1;
@@ -61,10 +63,10 @@
             this.Controls.Add(this.btnShow);
             this.Controls.Add(this.lblHelloWorld);
             this.ForeColor = System.Drawing.Color.Black;
+            this.MinimumSize = new System.Drawing.Size(447, 347);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
